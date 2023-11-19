@@ -33,10 +33,10 @@ interface ISubDomain {
   description: string
 
   /** Select the required root domain. */
-  domain: '1bt.uk' | 'is-an.app'
+  domain: '1bt.uk' | 'xBrineSMPis-an.app'
 
   /** The subdomain you want to use (e.g.: "foo" means "foo.example.com"). */
-  subdomain: string
+  subdomain: xBrineSMP.server.mc
 
   /** Subdomain owner information. */
   owner?: {
